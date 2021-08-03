@@ -1,19 +1,12 @@
 #home {
-    min-height: 80vh!important;
-    animation: BackgroundAnimation 70s ease infinite;
-    height: 100%;
-    left: 0;
-    right: 0;
+    min-height: 80vh!important; 
+	min-width: 100vh;
     text-align: center;
+	position: relative;
 }
 
-/* main {
-    padding: 5px;
-} */
-
 .animation-area {
-	background: linear-gradient(to left, #abe9cd, #3eadcf );
-	width: 100%;
+	background: linear-gradient(to left, #abe9cd, #3eadcf);
 	height: 100vh;
 }
 
@@ -50,7 +43,7 @@
 	width: 30px;
 	height: 30px;
 	animation-delay: 1.5s;
-	animation-duration: 10s;
+	animation-duration: 8s;
 }
 
 .dot li:nth-child(3) {
@@ -62,24 +55,31 @@
 
 .dot li:nth-child(4) {
 	left: 42%;
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
 	animation-delay: 0s;
-	animation-duration: 15s;
+	animation-duration: 7s;
 }
 
 .dot li:nth-child(5) {
 	left: 65%;
 	width: 40px;
 	height: 40px;
-	animation-delay: 0s;
+	animation-delay: 0.5s;
 }
 
 .dot li:nth-child(6) {
-	left: 15%;
-	width: 110px;
-	height: 110px;
+	left: 25%;
+	width: 90px;
+	height: 90px;
 	animation-delay: 3.5s;
+}
+
+.dot li:nth-child(7) {
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	animation-delay: 2.5s;
 }
 
 @keyframes animate {
@@ -95,6 +95,8 @@
 
 
 #about {
+	min-width: 100vh;
     justify-content: center;
     margin: auto;
+	background-color: rgb(212, 216, 215);
 }

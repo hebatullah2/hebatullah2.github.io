@@ -6,7 +6,7 @@
 }
 
 .animation-area {
-	background: linear-gradient(to left, #abe9cd, #3eadcf);
+	background: linear-gradient(to left, #90d5ec,#fc575e);
 	height: 100vh;
 }
 
@@ -93,10 +93,49 @@
 	}
 }
 
-
 #about {
-	min-width: 100vh;
+	min-width: 100vh!important;
     justify-content: center;
     margin: auto;
-	background-color: rgb(212, 216, 215);
+	background-color: rgb(226, 228, 227);
 }
+
+.circle {
+	height: 25px;
+	width: 25px;
+	background-color: rgb(235, 233, 233);
+	border-radius: 50%;
+	display: inline-block;
+}
+
+#skills {
+	min-width: 100vh;
+	padding-top: 10px;
+}
+
+.lead {
+	font-size: 28px;;
+}
+
+#education {
+	min-width: 100vh;
+	padding-top: 10px;
+}
+ 
+div a {
+	box-sizing: border-box;
+}
+
+img{
+	width: 40px;
+	height: 40px;
+}
+
+footer {
+	color: white;
+	background-color: rgb(116, 116, 116);
+	text-align: center;
+	justify-content: space-between;
+}
+
+

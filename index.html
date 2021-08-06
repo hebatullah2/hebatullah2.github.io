@@ -12,6 +12,7 @@
 
     <body>
 
+        <!-- Fixed nav bar -->
        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a href="#" class="brand navbar-brand">&lt;Heba /&gt;</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +38,7 @@
     
         <main>
 
+            <!-- Home area -->
             <section id="home" class="mt-5 d-flex align-items-center align-content-center flex-wrap animation-area">
                 <div class="text-center container">
                     <h1 class="display-1">Hebatullah Mostafa</h1>
@@ -51,12 +53,27 @@
                     </ul>
                 </div>
             </section>
-                  
+            
+            <!-- About me -->
             <section id="about" class="text-center p-4">
                 <h1 class="m-5 p-10">About Me</h1>
                 <p>I am a Junior Front-end Web Developer. W3C certified JavaScript Developer.    </p> 
             </section>
-                
+              
+            <!-- Education -->
+            <section id="education" class="bg-light p-4">
+                <h1 class="text-center m-5 p-10">Education</h1>
+                <div class="educationClass">
+                    <p class="d-flex justify-content-sm-between font-weight-bold">US Generation in partnership with South Seattle College <span class="font-weight-light">April 2021 - July 2021</span></p>
+                    <p class="font-italic">IT Bootcamp “Web Developer program”</p>
+                </div>
+                <div class="educationClass">
+                    <p class="d-flex justify-content-between font-weight-bold">Cairo University, Faculty of Engineering <span class="font-weight-light">Sep 2003 - May 2008</span></p>
+                    <p class="font-italic">Bachelor’s degree in Electronic and Communication Engineering</p>
+                </div>
+            </section>
+
+            <!--Sills-->
             <section id="skills" class="container p-4 justify-content-center">
                 <h1 class="m-5 p-10 text-center">Skills</h1>
                 <nav class="nav nav-tabs pt-5" role="tablist">
@@ -64,7 +81,7 @@
                     <a id="softSkillsTab" href="#" role="tab" data-id="softTab" aria-controls="softSkillsTab" tabindex="-1" aria-selected="false" class="lead nav-item nav-link w-50 text-center">Soft Skills</a>
                 </nav>
 
-                <div class="tab-content">
+                <div class="tab-content pb-4">
                     <div id="hardSkills" aria-labelledby="hardSkillsTab" role="tabpanel" aria-hidden="false" class="fade tab-pane active show">
                         <div class="pt-3 px-1 row">
                             <div class="col-sm-6 col-12">
@@ -209,25 +226,45 @@
                     </div>
                 </div>
             </section>
-
-            <section id="education" class="bg-light">
-                <h1 class="text-center">Education</h1>
-                <ul>
-                    <li>US Generation in partnership with South Seattle College</li>
-                </ul>
-            </section>
             
-            <section id="projects">
-                <h3 class="text-center">Projects</h3>
-                <ul>
-                    <li>Project 1</li>
-                    <li>Project 2</li>
-                </ul>
+            <!-- Projects -->
+            <section id="projects" class="container p-4 justify-content-center">
+                <h1 class="m-5 p-10 text-center">Projects</h1>
+
+                <nav class="nav nav-pills nav-justified flex-column flex-sm-row" role="tablist">
+                    <a id="taskPlannerTab" role="tab" data-id="taskPlannerTab" aria-controls="taskPlannerTab" aria-selected="true" class="lead flex-sm-fill text-sm-center nav-item nav-link active bg-dark">Task Planner</a>
+                    <a id="alarmClockTab" href="#" role="tab" data-id="alarmClockTab" aria-controls="alarmClockTab" tabindex="-1" aria-selected="false" class="lead nav-item nav-link flex-sm-fill text-sm-center">Alarm Clock</a>
+                    <a id="robotGameTab" href="#" role="tab" data-id="robotGameTab" aria-controls="robotGameTab" tabindex="-1" aria-selected="false" class="lead nav-item nav-link flex-sm-fill text-sm-center">Robot Game</a>
+                </nav>
+
+                <div class="pill-content">
+                    <div id="taskPlanner" aria-labelledby="taskPlannerTab" role="tabpanel" aria-hidden="false" class="fade tab-pane active show">
+                        <div class="pt-3 px-1 row">
+                            <div class="col-sm-6 col-12">
+                                kkkk
+                        </div>
+                    </div>
+                    <div id="alarmClock" aria-labelledby="alarmClockTab" role="tabpanel" aria-hidden="true" class="fade tab-pane">
+                        <div class="pt-3 px-1 row">
+                            <div class="col-sm-6 col-12">
+                                ppppp
+                            </div>
+                        </div>    
+                    </div>
+                    <div id="robotGame" aria-labelledby="robotGameTab" role="tabpanel" aria-hidden="true" class="fade tab-pane">
+                        <div class="pt-3 px-1 row">
+                            <div class="col-sm-6 col-12">
+                                zzzz
+                            </div>
+                        </div>    
+                    </div>
+                </div>
             </section>
 
         </main>
 
-        <footer id="contact" class="p-5 mt-5 mb-5">
+        <!-- Contact Information -->
+        <footer id="contact" class="p-5">
             <h1 class="pb-3 mb-3">Contact Me</h1>
             <span class="p-2"> 
                <a target="_blank" href="https://www.linkedin.com/in/hebatullah-mostafa-676a23210/" aria-label="My linkedin" rel="noopener noreferrer">

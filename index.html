@@ -12,6 +12,7 @@
 
     <body>
 
+        <!-- Fixed nav bar -->
        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a href="#" class="brand navbar-brand">&lt;Heba /&gt;</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +38,7 @@
     
         <main>
 
+            <!-- Home area -->
             <section id="home" class="mt-5 d-flex align-items-center align-content-center flex-wrap animation-area">
                 <div class="text-center container">
                     <h1 class="display-1">Hebatullah Mostafa</h1>
@@ -51,12 +53,27 @@
                     </ul>
                 </div>
             </section>
-                  
+            
+            <!-- About me -->
             <section id="about" class="text-center p-4">
                 <h1 class="m-5 p-10">About Me</h1>
                 <p>I am a Junior Front-end Web Developer. W3C certified JavaScript Developer.    </p> 
             </section>
-                
+              
+            <!-- Education -->
+            <section id="education" class="bg-light p-4">
+                <h1 class="text-center m-5 p-10">Education</h1>
+                <div class="educationClass">
+                    <p class="d-flex justify-content-sm-between font-weight-bold">US Generation in partnership with South Seattle College <span class="font-weight-light">April 2021 - July 2021</span></p>
+                    <p class="font-italic">IT Bootcamp “Web Developer program”</p>
+                </div>
+                <div class="educationClass">
+                    <p class="d-flex justify-content-between font-weight-bold">Cairo University, Faculty of Engineering <span class="font-weight-light">Sep 2003 - May 2008</span></p>
+                    <p class="font-italic">Bachelor’s degree in Electronic and Communication Engineering</p>
+                </div>
+            </section>
+
+            <!--Sills-->
             <section id="skills" class="container p-4 justify-content-center">
                 <h1 class="m-5 p-10 text-center">Skills</h1>
                 <nav class="nav nav-tabs pt-5" role="tablist">
@@ -64,7 +81,7 @@
                     <a id="softSkillsTab" href="#" role="tab" data-id="softTab" aria-controls="softSkillsTab" tabindex="-1" aria-selected="false" class="lead nav-item nav-link w-50 text-center">Soft Skills</a>
                 </nav>
 
-                <div class="tab-content">
+                <div class="tab-content pb-4">
                     <div id="hardSkills" aria-labelledby="hardSkillsTab" role="tabpanel" aria-hidden="false" class="fade tab-pane active show">
                         <div class="pt-3 px-1 row">
                             <div class="col-sm-6 col-12">
@@ -209,25 +226,41 @@
                     </div>
                 </div>
             </section>
-
-            <section id="education" class="bg-light">
-                <h1 class="text-center">Education</h1>
-                <ul>
-                    <li>US Generation in partnership with South Seattle College</li>
-                </ul>
-            </section>
             
-            <section id="projects">
-                <h3 class="text-center">Projects</h3>
-                <ul>
-                    <li>Project 1</li>
-                    <li>Project 2</li>
-                </ul>
+            <!-- Projects -->
+            <section id="projects" class="container p-4 justify-content-center">
+                <h1 class="m-5 p-10 text-center">Projects</h1>
+
+                <div class="d-flex align-items-start">
+                    <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <button class="nav-link  active" id="taskPlannerTab" data-bs-toggle="pill" data-bs-target="#taskPlanner" type="button" role="tab" aria-controls="taskPlanner" aria-selected="true">Task Planner</button>
+                      <button class="nav-link" id="alarmClockTab" data-bs-toggle="pill" data-bs-target="#alarmClock" type="button" role="tab" aria-controls="alarmClock" aria-selected="false">Alarm Clock</button>
+                      <button class="nav-link" id="robotGameTab" data-bs-toggle="pill" data-bs-target="#robotGame" type="button" role="tab" aria-controls="robotGame" aria-selected="false">Robot Game</button>
+                    </div>
+
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade ml-3 show active" id="taskPlanner" role="tabpanel" aria-labelledby="taskPlannerTab">
+                        <video src="resources/videos/taskPlannerDemo.webm" type="video/webm" autoplay muted loop></video>
+                        <p class="m-0 p-0"> This a task planner. You can edit or delete the tasks.</p>
+                      </div>
+                      <div class="tab-pane fade" id="alarmClock" role="tabpanel" aria-labelledby="alarmClockTab">
+                        <video src="resources/videos/alarmClockDemo.webm" type="video/webm" controls="autoplay muted"></video>
+                        <p class="m-0 p-0"> This an alarm clock. It shows time in digital and analog format. You can set, delete and snooze alarms.</p>   
+                      </div>
+                      <div class="tab-pane fade" id="robotGame" role="tabpanel" aria-labelledby="robotGameTab">
+                        <video src="resources/videos/alarmClockDemo.webm" type="video/webm" controls="autoplay muted"></video>
+                        <p class="m-0 p-0"> This an alarm clock. It shows time in digital and analog format. You can set, delete and snooze alarms.</p>   
+                      </div>
+                   
+                    </div>
+                  </div>
+
             </section>
 
         </main>
 
-        <footer id="contact" class="p-5 mt-5 mb-5">
+        <!-- Contact Information -->
+        <footer id="contact" class="p-5">
             <h1 class="pb-3 mb-3">Contact Me</h1>
             <span class="p-2"> 
                <a target="_blank" href="https://www.linkedin.com/in/hebatullah-mostafa-676a23210/" aria-label="My linkedin" rel="noopener noreferrer">

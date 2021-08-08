@@ -100,6 +100,29 @@
 	background-color: rgb(226, 228, 227);
 }
 
+#education {
+	min-width: 100vh;
+	padding-top: 10px;
+}
+
+.educationClass {
+	margin: 0 auto 30px auto;
+	padding: 15px;
+	border: 1px solid rgb(182, 182, 182);
+	width: 60%;
+	height: auto;
+}
+
+.educationClass p {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+#skills {
+	min-width: 100vh;
+	padding: 10px;
+}
+
 .circle {
 	height: 25px;
 	width: 25px;
@@ -108,20 +131,28 @@
 	display: inline-block;
 }
 
-#skills {
-	min-width: 100vh;
-	padding-top: 10px;
-}
-
 .lead {
 	font-size: 28px;;
 }
 
-#education {
+#projects {
 	min-width: 100vh;
-	padding-top: 10px;
+	max-width: 150%;
+	background-color: rgb(194, 192, 192);
 }
- 
+
+#taskPlannerTab, #alarmClockTab, #robotGameTab {
+	/* color: white; */
+	font-weight: bold;
+}
+
+video {
+	width: 85%;
+	height: 85%;
+	/* margin: 0;
+	padding: 0; */
+}
+
 div a {
 	box-sizing: border-box;
 }
@@ -132,6 +163,7 @@ img{
 }
 
 footer {
+	min-width: 100vh;
 	color: white;
 	background-color: rgb(116, 116, 116);
 	text-align: center;

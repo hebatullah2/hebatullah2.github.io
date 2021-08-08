@@ -68,7 +68,7 @@
                     <p class="font-italic">IT Bootcamp “Web Developer program”</p>
                 </div>
                 <div class="educationClass">
-                    <p class="d-flex justify-content-between font-weight-bold">Cairo University, Faculty of Engineering <span class="font-weight-light">Sep 2003 - May 2008</span></p>
+                    <p class="d-flex justify-content-sm-between font-weight-bold">Cairo University, Faculty of Engineering <span class="font-weight-light">Sep 2003 - May 2008</span></p>
                     <p class="font-italic">Bachelor’s degree in Electronic and Communication Engineering</p>
                 </div>
             </section>
@@ -235,21 +235,25 @@
                     <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
                       <button class="nav-link  active" id="taskPlannerTab" data-bs-toggle="pill" data-bs-target="#taskPlanner" type="button" role="tab" aria-controls="taskPlanner" aria-selected="true">Task Planner</button>
                       <button class="nav-link" id="alarmClockTab" data-bs-toggle="pill" data-bs-target="#alarmClock" type="button" role="tab" aria-controls="alarmClock" aria-selected="false">Alarm Clock</button>
-                      <button class="nav-link" id="robotGameTab" data-bs-toggle="pill" data-bs-target="#robotGame" type="button" role="tab" aria-controls="robotGame" aria-selected="false">Robot Game</button>
+                      <!-- <button class="nav-link" id="robotGameTab" data-bs-toggle="pill" data-bs-target="#robotGame" type="button" role="tab" aria-controls="robotGame" aria-selected="false">Robot Game</button> -->
                     </div>
 
                     <div class="tab-content" id="v-pills-tabContent">
-                      <div class="tab-pane fade ml-3 show active" id="taskPlanner" role="tabpanel" aria-labelledby="taskPlannerTab">
+                      <div class="tab-pane fade show active" id="taskPlanner" role="tabpanel" aria-labelledby="taskPlannerTab">
                         <video src="resources/videos/taskPlannerDemo.webm" type="video/webm" autoplay muted loop></video>
-                        <p class="m-0 p-0"> This a task planner. You can edit or delete the tasks.</p>
+                        <div class="info">
+                            <p class="p-3"> This a task planner. You can edit or delete the tasks.</p>
+                        </div>
                       </div>
                       <div class="tab-pane fade" id="alarmClock" role="tabpanel" aria-labelledby="alarmClockTab">
-                        <video src="resources/videos/alarmClockDemo.webm" type="video/webm" controls="autoplay muted"></video>
-                        <p class="m-0 p-0"> This an alarm clock. It shows time in digital and analog format. You can set, delete and snooze alarms.</p>   
+                        <video src="resources/videos/alarmClockDemo.webm" type="video/webm" autoplay muted loop></video>
+                        <div class="info">
+                            <p> This an alarm clock. It shows time in digital and analog format. You can set, delete and snooze alarms.</p>   
+                        </div>
                       </div>
-                      <div class="tab-pane fade" id="robotGame" role="tabpanel" aria-labelledby="robotGameTab">
-                        <video src="resources/videos/alarmClockDemo.webm" type="video/webm" controls="autoplay muted"></video>
-                        <p class="m-0 p-0"> This an alarm clock. It shows time in digital and analog format. You can set, delete and snooze alarms.</p>   
+                      <!-- <div class="tab-pane fade" id="robotGame" role="tabpanel" aria-labelledby="robotGameTab">
+                        <video src="resources/videos/alarmClockDemo.webm" type="video/webm" autoplay muted loop></video>
+                        <p class="m-0 p-0"> This an alarm clock. It shows time in digital and analog format. You can set, delete and snooze alarms.</p>    -->
                       </div>
                    
                     </div>

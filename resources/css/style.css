@@ -146,11 +146,16 @@
 	font-weight: bold;
 }
 
-video {
+video, .info {
+	display: block;
+	margin: 0 auto;
 	width: 85%;
 	height: 85%;
-	/* margin: 0;
-	padding: 0; */
+}
+
+.info {
+	color: white;
+	background-color: grey;
 }
 
 div a {

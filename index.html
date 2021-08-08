@@ -231,35 +231,30 @@
             <section id="projects" class="container p-4 justify-content-center">
                 <h1 class="m-5 p-10 text-center">Projects</h1>
 
-                <nav class="nav nav-pills nav-justified flex-column flex-sm-row" role="tablist">
-                    <a id="taskPlannerTab" role="tab" data-id="taskPlannerTab" aria-controls="taskPlannerTab" aria-selected="true" class="lead flex-sm-fill text-sm-center nav-item nav-link active bg-dark">Task Planner</a>
-                    <a id="alarmClockTab" href="#" role="tab" data-id="alarmClockTab" aria-controls="alarmClockTab" tabindex="-1" aria-selected="false" class="lead nav-item nav-link flex-sm-fill text-sm-center">Alarm Clock</a>
-                    <a id="robotGameTab" href="#" role="tab" data-id="robotGameTab" aria-controls="robotGameTab" tabindex="-1" aria-selected="false" class="lead nav-item nav-link flex-sm-fill text-sm-center">Robot Game</a>
-                </nav>
+                <div class="d-flex align-items-start">
+                    <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <button class="nav-link  active" id="taskPlannerTab" data-bs-toggle="pill" data-bs-target="#taskPlanner" type="button" role="tab" aria-controls="taskPlanner" aria-selected="true">Task Planner</button>
+                      <button class="nav-link" id="alarmClockTab" data-bs-toggle="pill" data-bs-target="#alarmClock" type="button" role="tab" aria-controls="alarmClock" aria-selected="false">Alarm Clock</button>
+                      <button class="nav-link" id="robotGameTab" data-bs-toggle="pill" data-bs-target="#robotGame" type="button" role="tab" aria-controls="robotGame" aria-selected="false">Robot Game</button>
+                    </div>
 
-                <div class="pill-content">
-                    <div id="taskPlanner" aria-labelledby="taskPlannerTab" role="tabpanel" aria-hidden="false" class="fade tab-pane active show">
-                        <div class="pt-3 px-1 row">
-                            <div class="col-sm-6 col-12">
-                                <video src="resources/videos/taskPlannerDemo.webm" type="video/webm" controls="autplay"></video>
-                                <p class="m-0 p-0"> This a task planner. You can edit or delete the tasks.</p>
-                        </div>
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade ml-3 show active" id="taskPlanner" role="tabpanel" aria-labelledby="taskPlannerTab">
+                        <video src="resources/videos/taskPlannerDemo.webm" type="video/webm" autoplay muted loop></video>
+                        <p class="m-0 p-0"> This a task planner. You can edit or delete the tasks.</p>
+                      </div>
+                      <div class="tab-pane fade" id="alarmClock" role="tabpanel" aria-labelledby="alarmClockTab">
+                        <video src="resources/videos/alarmClockDemo.webm" type="video/webm" controls="autoplay muted"></video>
+                        <p class="m-0 p-0"> This an alarm clock. It shows time in digital and analog format. You can set, delete and snooze alarms.</p>   
+                      </div>
+                      <div class="tab-pane fade" id="robotGame" role="tabpanel" aria-labelledby="robotGameTab">
+                        <video src="resources/videos/alarmClockDemo.webm" type="video/webm" controls="autoplay muted"></video>
+                        <p class="m-0 p-0"> This an alarm clock. It shows time in digital and analog format. You can set, delete and snooze alarms.</p>   
+                      </div>
+                   
                     </div>
-                    <div id="alarmClock" aria-labelledby="alarmClockTab" role="tabpanel" aria-hidden="true" class="fade tab-pane">
-                        <div class="pt-3 px-1 row">
-                            <div class="col-sm-6 col-12">
-                                ppppp
-                            </div>
-                        </div>    
-                    </div>
-                    <div id="robotGame" aria-labelledby="robotGameTab" role="tabpanel" aria-hidden="true" class="fade tab-pane">
-                        <div class="pt-3 px-1 row">
-                            <div class="col-sm-6 col-12">
-                                zzzz
-                            </div>
-                        </div>    
-                    </div>
-                </div>
+                  </div>
+
             </section>
 
         </main>

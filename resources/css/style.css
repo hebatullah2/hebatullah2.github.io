@@ -141,9 +141,10 @@
 	background-color: rgb(194, 192, 192);
 }
 
-#taskPlannerTab, #alarmClockTab, #robotGameTab {
-	/* color: white; */
+#taskPlannerTab, #alarmClockTab {
+	color: white;
 	font-weight: bold;
+	background-color: grey;
 }
 
 video, .info {
